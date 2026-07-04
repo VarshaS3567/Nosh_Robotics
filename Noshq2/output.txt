@@ -1,0 +1,39 @@
+t= 1s | Produced 4 bytes | buffer=4
+t= 2s | Produced 4 bytes | buffer=8
+t= 3s | Produced 5 bytes | buffer=13
+t= 4s | Produced 4 bytes | buffer=17
+t= 5s | Produced 4 bytes | buffer=21
+t= 6s | Produced 0 bytes | buffer=21
+t= 7s | Produced 1 bytes | buffer=22
+t= 8s | Produced 2 bytes | buffer=24
+t= 9s | Produced 1 bytes | buffer=25
+t=10s | Not enough data (25 bytes)
+t=10s | Produced 0 bytes | buffer=25
+t=11s | Produced 2 bytes | buffer=27
+t=12s | Produced 2 bytes | buffer=29
+t=13s | Produced 2 bytes | buffer=31
+t=14s | Produced 4 bytes | buffer=35
+t=15s | Produced 5 bytes | buffer=40
+t=16s | Produced 4 bytes | buffer=44
+t=17s | Produced 2 bytes | buffer=46
+t=18s | Produced 1 bytes | buffer=47
+t=19s | Produced 3 bytes | buffer=50
+
+t=20s | Consuming 50 bytes:
+81 73 05 3D 4C F4 6F 03 6C 11 E4 4E 64 4B 97 15 F8 31 8D 22 CC 5B 4D 4D C0 62 9F D2 A2 3E B3 8C 18 88 D7 9E CF BA CF 5C 9B E0 D3 F7 21 44 E1 74 44 36 
+
+t=20s | Produced 0 bytes | buffer=0
+t=21s | Produced 4 bytes | buffer=4
+t=22s | Produced 5 bytes | buffer=9
+t=23s | Produced 5 bytes | buffer=14
+t=24s | Produced 0 bytes | buffer=14
+t=25s | Produced 2 bytes | buffer=16
+t=26s | Produced 2 bytes | buffer=18
+t=27s | Produced 4 bytes | buffer=22
+t=28s | Produced 4 bytes | buffer=26
+t=29s | Produced 5 bytes | buffer=31
+t=30s | Not enough data (31 bytes)
+t=30s | Produced 4 bytes | buffer=35
+
+
+=== Code Execution Successful ===
